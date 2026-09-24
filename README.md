@@ -12,6 +12,6 @@ A lightweight, concurrent TCP reconnaissance tool built purely with Python's sta
 ## Installation
 Clone the repository and run directly:
 ```bash
-git clone [https://github.com/KULLANICI_ADIN/pyscan.git](https://github.com/KULLANICI_ADIN/pyscan.git)
+git clone [https://github.com/abdullahcevikk/pyscan.git](https://github.com/abdullahcevikk/pyscan.git)
 cd pyscan
 python scanner.py -h
