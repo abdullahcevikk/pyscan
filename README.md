@@ -15,3 +15,14 @@ Clone the repository and run directly:
 git clone [https://github.com/abdullahcevikk/pyscan.git](https://github.com/abdullahcevikk/pyscan.git)
 cd pyscan
 python scanner.py -h
+Usage Examples
+# Basic scan (Default: 1-1024 ports, 50 workers)
+python scanner.py -t scanme.nmap.org
+
+# Targeted range with customized thread count
+python scanner.py -t scanme.nmap.org -p 20-100 -w 100
+
+# Randomized stealth order
+python scanner.py -t scanme.nmap.org -p 1-500 -r
+Disclaimer
+This project is developed for educational purposes and authorized penetration testing only. Do not scan targets without prior mutual consent.
